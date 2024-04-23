@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pulumi.Utilities.Importer", "Pulumi.Utilities.Importer\Pulumi.Utilities.Importer.csproj", "{EF44F9F6-279A-41CD-BCE4-CBA11A43BE48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{B8943A96-B32B-4151-B490-B9075EF70BF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{25DD11D0-8549-4A08-AA2E-161CF84CF713}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		CHANGELOG.md = CHANGELOG.md
+		CODEOWNERS.md = CODEOWNERS.md
+		gitguardian.yml = gitguardian.yml
+		Pulumi.Utilities.Importer.ndproj = Pulumi.Utilities.Importer.ndproj
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF44F9F6-279A-41CD-BCE4-CBA11A43BE48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF44F9F6-279A-41CD-BCE4-CBA11A43BE48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF44F9F6-279A-41CD-BCE4-CBA11A43BE48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF44F9F6-279A-41CD-BCE4-CBA11A43BE48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8943A96-B32B-4151-B490-B9075EF70BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8943A96-B32B-4151-B490-B9075EF70BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF979703-45AB-4E4C-97C8-AB1EE3C21EB8}
+	EndGlobalSection
+EndGlobal
